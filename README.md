@@ -30,6 +30,22 @@ $ pip install discord.py
 - sys
 ```
 
+## Setting Up the Bot Token
+
+To run the bots, you need to create a JSON file that stores your bot's token. Follow the steps below:
+
+1. Create a `bot_token.json` file in the `configs` folder.
+
+2. Inside the `bot_token.json` file, add the following structure and replace `YOUR_BOT_TOKEN` with your actual bot token:
+
+```json
+{
+  "YOUR_BOT_TOKEN": "YOUR_BOT_TOKEN"
+}
+```
+
+3. **Make sure the token is kept private and is not shared publicly.**
+
 ---
 
 # Discord-Bot
@@ -63,3 +79,19 @@ $ pip install discord.py
 - os
 - sys
 ```
+
+## 設定機器人 Token
+
+要運行機器人, 您需要創建一個存儲機器人 Token 的 JSON 文件, 請按照以下步驟操作:
+
+1. 在 `configs` 文件夾中創建一個 `bot_token.json` 文件。
+
+2. 在 `bot_token.json` 文件中, 加入以下結構, 並將 `YOUR_BOT_TOKEN` 替換為您的實際機器人 Token:
+
+```json
+{
+  "YOUR_BOT_TOKEN": "YOUR_BOT_TOKEN"
+}
+```
+
+3. **確保您的 Token 保持私密, 切勿公開分享**
