@@ -30,9 +30,7 @@ $ pip install discord.py
 - sys
 ```
 
-## <br>
-
-<br>
+---
 
 # Discord-Bot
 
