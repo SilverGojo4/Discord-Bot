@@ -39,3 +39,6 @@ target/
 
 # Ignore VSCode personal settings
 .vscode/
+
+# Ignore Discord Bot config
+configs/
