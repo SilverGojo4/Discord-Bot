@@ -60,11 +60,11 @@ async def on_ready():
 
     # Send the corresponding message based on the job_status
     if args.job_status == "success":
-        await channel.send("🎉 Job Completed Successfully!")  # type: ignore
+        await channel.send("## 🎉 Job Completed Successfully!")  # type: ignore
     elif args.job_status == "failed":
-        await channel.send("⚠️ Job Failed!")  # type: ignore
+        await channel.send("## ⚠️ Job Failed!")  # type: ignore
     else:
-        await channel.send(f"❗ Unrecognized Job Status: {args.job_status}")  # type: ignore
+        await channel.send(f"## ❗ Unrecognized Job Status: {args.job_status}")  # type: ignore
 
     print("Message sent. Closing bot...")
 
